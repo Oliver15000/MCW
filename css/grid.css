@@ -1,0 +1,73 @@
+/*-------------------------------------------------------------*/
+/*GRID - SYSTEM*/
+/*-------------------------------------------------------------*/
+.grid>* {
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* TIPP: nach einem grid immer ein DIV mit class clear erstellen oder per CSS + * lösen oder :after! */
+.clear {
+    clear: both;
+    flex: none;
+}
+/*Variante 1*/
+.grid + * {
+    clear: both;
+    flex: none;
+}
+/*Variante 2: https://developer.mozilla.org/de/docs/Web/CSS/::after*/
+.grid::after > *{
+    clear: both;
+    flex: none;
+}
+
+/*SMALL = s (Handys)*/
+@media screen and (min-width:0px) and (max-width:599px) {
+    .s12 {width: 100%;}
+    .s11 {width: calc(100% / 12 * 11);}
+    .s10 {width: calc(100% / 12 * 10);}
+    .s9 {width: calc(100% / 12 * 9);}
+    .s8 {width: calc(100% / 12 * 8);}
+    .s7 {width: calc(100% / 12 * 7);}
+    .s6 {width: calc(100% / 12 * 6);}
+    .s5 {width: calc(100% / 12 * 5);}
+    .s4 {width: calc(100% / 12 * 4);}
+    .s3 {width: calc(100% / 12 * 3);}
+    .s2 {width: calc(100% / 12 * 2);}
+    .s1 {width: calc(100% / 12 * 1);}
+}
+
+/*MIDDLE = m (Tablets)*/
+@media screen and (min-width:600px) and (max-width:1099px) {
+    .m12 {width: 100%;}
+    .m11 {width: calc(100% / 12 * 11);}
+    .m10 {width: calc(100% / 12 * 10);}
+    .m9 {width: calc(100% / 12 * 9);}
+    .m8 {width: calc(100% / 12 * 8);}
+    .m7 {width: calc(100% / 12 * 7);}
+    .m6 {width: calc(100% / 12 * 6);}
+    .m5 {width: calc(100% / 12 * 5);}
+    .m4 {width: calc(100% / 12 * 4);}
+    .m3 {width: calc(100% / 12 * 3);}
+    .m2 {width: calc(100% / 12 * 2);}
+    .m1 {width: calc(100% / 12 * 1);}
+}
+
+/*LARGE = l (PC's')*/
+@media screen and (min-width:1100px) {
+    .l12 {width: 100%;}
+    .l11 {width: calc(100% / 12 * 11);}
+    .l10 {width: calc(100% / 12 * 10);}
+    .l9 {width: calc(100% / 12 * 9);}
+    .l8 {width: calc(100% / 12 * 8);}
+    .l7 {width: calc(100% / 12 * 7);}
+    .l6 {width: calc(100% / 12 * 6);}
+    .l5 {width: calc(100% / 12 * 5);}
+    .l4 {width: calc(100% / 12 * 4);}
+    .l3 {width: calc(100% / 12 * 3);}
+    .l2 {width: calc(100% / 12 * 2);}
+    .l1 {width: calc(100% / 12 * 1);}
+}

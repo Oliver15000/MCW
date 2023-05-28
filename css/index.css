@@ -1,0 +1,100 @@
+@import url('https://fonts.cdnfonts.com/css/open-sans-condensed-2?styles=80716');
+@import url('grid.css');
+@import url('master.css');
+@import url('normalize.css');
+@import url('farben.css');
+@import url('navigationbar.css');
+@import url('galerie.css');
+
+
+/* Schriftart auf alles anwenden */
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: rgba(132, 176, 100, 0.79) url('../img/Hintergrund/Hintergrund_Home_matt.jpg')no-repeat center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(201, 232, 181, 0.87);
+    
+}
+
+main{
+    display: inline-block !important;
+    /*margin: 40px;*/
+    background-color:rgba(132, 176, 100, 0.79);
+}
+
+h1 {
+    color: blue;
+    font-size: 80px;
+
+}
+
+h2 {
+    color: rgb(85, 79, 69);
+    font-size: 14px;
+    font-weight: 200;
+
+}
+
+.grid img {
+    /*border: 1px solid black;*/
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgba(132, 176, 100, 0.79);
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-gray{
+    color: gray;
+}
+.text-graymc{
+    color: rgb(85, 79, 69);
+}
+.text-14{
+    font-size: 14px;
+}
+.text-80{
+    font-size: 80px;
+}
+.text-40{
+    font-size: 40px;
+}
+.text-35{
+    font-size: 35px;
+}
+.text-50{
+    font-size: 50px;
+}
+.text-55{
+    font-size: 55px;
+}
+.font-weight-200{
+    font-weight: 200;
+}
+
+.text-lineheight-50{
+    line-height: 50%;
+}
+.text-lineheight-10{
+    line-height: 10%;
+}
+
+.bodybackground{
+    background-color: rgba(132, 176, 100, 0.79);
+}
+
+
+

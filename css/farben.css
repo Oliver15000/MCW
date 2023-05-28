@@ -1,0 +1,107 @@
+/*ALLGEMEINE FARBEINSTELLUNGEN*/
+/*Shadow - Generator: https://www.cssmatic.com/box-shadow */
+.shadow-1 {
+    -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.21);
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.21);
+}
+.shadow-3 {
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+}
+
+/* Gradient - Generator: https://www.colorzilla.com/gradient-editor/*/
+.gradient{
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0.72) 0%, rgba(255,255,255,0.72) 1%, rgba(255,255,255,0.72) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.72) 0%,rgba(255,255,255,0.72) 1%,rgba(255,255,255,0.72) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,0.72) 0%,rgba(255,255,255,0.72) 1%,rgba(255,255,255,0.72) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8ffffff', endColorstr='#b8ffffff',GradientType=0 ); /* IE6-9 */
+}
+.gradient-black{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
+    background: rgb(76,76,76); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+
+/*BACKGROUND-COLOR*/
+.green {background-color: green;}
+.blue {background-color: blue;}
+.red {background-color: red;}
+.yellow {background-color: yellow;}
+.gray {background-color: gray;}
+.lightgray {background-color: lightgray;}
+.darkgray {background-color: darkgray;}
+.black {background-color: black;}
+.white {background-color: white;}
+.lime {background-color: lime;}
+.fuchsia {background-color: fuchsia;}
+.aqua {background-color: aqua;}
+.Pink {background-color: Pink;}
+.Orange {background-color: Orange;}
+.Gold {background-color: Gold;}
+.Olive {background-color: Olive;}
+.ForestGreen {background-color: ForestGreen;}
+.Teal {background-color: Teal;}
+.LightBlue {background-color: LightBlue;}
+.RoyalBlue {background-color: RoyalBlue;}
+.Brown {background-color: Brown;}
+.Sienna {background-color: Sienna;}
+.Peru {background-color: Peru;}
+.SandyBrown {background-color: SandyBrown;}
+.LightGray {background-color: #cfcfcf;}
+
+/*TEXT-COLOR*/
+.text-green {color: green;}
+.text-blue {color: blue;}
+.text-red {color: red;}
+.text-yellow {color: yellow;}
+.text-gray {color: gray;}
+.text-lightgray {color: lightgray;}
+.text-darkgray {color: darkgray;}
+.text-black {color: black;}
+.text-white {color: white;}
+.text-lime {color: lime;}
+.text-fuchsia {color: fuchsia;}
+.text-aqua {color: aqua;}
+.text-Pink {color: Pink;}
+.text-Orange {color: Orange;}
+.text-Gold {color: Gold;}
+.text-Olive {color: Olive;}
+.text-ForestGreen {color: ForestGreen;}
+.text-Teal {color: Teal;}
+.text-LightBlue {color: LightBlue;}
+.text-RoyalBlue {color: RoyalBlue;}
+.text-Brown {color: Brown;}
+.text-Sienna {color: Sienna;}
+.text-Peru {color: Peru;}
+.text-SandyBrown {color: SandyBrown;}
+
+/*RAHMEN-COLOR*/
+.border-green {border-color: green;}
+.border-blue {border-color: blue;}
+.border-red {border-color: red;}
+.border-yellow {border-color: yellow;}
+.border-gray {border-color: gray;}
+.border-lightgray {border-color: lightgray;}
+.border-darkgray {border-color: darkgray;}
+.border-black {border-color: black;}
+.border-white {border-color: white;}
+.border-lime {border-color: lime;}
+.border-fuchsia {border-color: fuchsia;}
+.border-aqua {border-color: aqua;}
+.border-Pink {border-color: Pink;}
+.border-Orange {border-color: Orange;}
+.border-Gold {border-color: Gold;}
+.border-Olive {border-color: Olive;}
+.border-ForestGreen {border-color: ForestGreen;}
+.border-Teal {border-color: Teal;}
+.border-LightBlue {border-color: LightBlue;}
+.border-RoyalBlue {border-color: RoyalBlue;}
+.border-Brown {border-color: Brown;}
+.border-Sienna {border-color: Sienna;}
+.border-Peru {border-color: Peru;}
+.border-SandyBrown {border-color: SandyBrown;}
