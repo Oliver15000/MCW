@@ -1,48 +1,5 @@
-/*Desktop-Ansicht*/
-@media screen and (min-width:800px){
-  body {
-    margin: 0;
-    font-family:'Open Sans Condensed', sans-serif;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    width: 66%;
-    height: 35px;
-    background-color: rgba(255, 255, 255, 0.0);
-  }
-  
-  .topnav a {
-    float: middle;
-    color: rgb(85, 79, 69);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 25px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: rgb(85, 79, 69);
-  }
-  
-  .topnav a.active {
-    background-color: rgba(255, 255, 255, 0.9);
-    color: rgb(85, 79, 69);
-  }
-
-  .side-menu {
-    display: none;
-} /* Hide checkbox */
-}
-
-
-
-
-
-/*Handy-Ansicht*/
-@media screen and (max-width:700px) {
-  
+/* Theming */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
 
 :root{
     --white: #f9f9f9;
@@ -57,7 +14,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(201, 232, 181, 0.87);
+    background-color: var(--white);
     font-family: "Poppins", sans-serif;
 }
 a{
@@ -69,7 +26,7 @@ ul{
 
 /* Header */
 .header{
-    background-color: rgba(201, 232, 181, 0.87);
+    background-color: var(--black);
     box-shadow: 1px 1px 5px 0px var(--gray);
     position: sticky;
     top: 0;
@@ -88,14 +45,14 @@ ul{
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: rgba(132, 176, 100, 1);
+    background-color: var(--black);
     overflow: hidden;
 
 }
 .menu a{
     display: block;
     padding: 30px;
-    color: rgb(85, 79, 69);
+    color: var(--white);
 }
 .menu a:hover{
     background-color: var(--gray);
@@ -113,7 +70,7 @@ ul{
 }/* Style label tag */
 
 .hamb-line {
-    background: rgb(85, 79, 69);
+    background: var(--white);
     display: block;
     height: 2px;
     position: relative;
@@ -123,7 +80,7 @@ ul{
 
 .hamb-line::before,
 .hamb-line::after{
-    background: rgb(85, 79, 69);
+    background: var(--white);
     content: '';
     display: block;
     height: 100%;
@@ -156,8 +113,4 @@ ul{
 .side-menu:checked ~ .hamb .hamb-line::after {
     transform: rotate(45deg);
     top:0;
-}
-
-
-  
 }

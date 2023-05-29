@@ -97,4 +97,10 @@ h2 {
 }
 
 
+.before::before, .after::after {
+    content: "\A";
+    white-space: pre;
+}
+
+
 
