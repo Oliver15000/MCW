@@ -1,5 +1,9 @@
+.ausblenden{
+    display: none;
+}
+
 /*Desktop-Ansicht*/
-@media screen and (min-width:800px){
+@media screen and (min-width:1200px){
   body {
     margin: 0;
     font-family:'Open Sans Condensed', sans-serif;
@@ -40,12 +44,16 @@
 }
 }
 
-
+@media screen and (min-width:0px) and (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
 
 
 
 /*Handy-Ansicht*/
-@media screen and (max-width:799px) {
+@media screen and (max-width:1199px) {
   
 
 :root{
@@ -101,6 +109,11 @@ ul{
 .menu a{
     display: block;
     padding: 30px;
+    color: rgb(85, 79, 69);
+}
+
+a.active{
+    background-color: rgba(255, 255, 255, 0.9);
     color: rgb(85, 79, 69);
 }
 .menu a:hover{
@@ -164,9 +177,7 @@ ul{
     top:0;
 }
 
-.hide{
-    display: none;
-}
+
 
 .desktop{
     display: none;

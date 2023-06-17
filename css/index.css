@@ -12,10 +12,12 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     background: rgba(132, 176, 100, 0.79) url('../img/Hintergrund/Hintergrund_Home_matt.jpg')no-repeat center fixed;
     background-size: cover;
+    
 }
 
 header {
     background-color: rgba(201, 232, 181, 0.87);
+    border-radius: 10px;
     
 }
 
@@ -23,6 +25,7 @@ main{
     display: inline-block !important;
     /*margin: 40px;*/
     background-color:rgba(132, 176, 100, 0.79);
+    border-radius: 10px;
 }
 
 h1 {
@@ -101,6 +104,7 @@ h2 {
     content: "\A";
     white-space: pre;
 }
+
 
 
 
